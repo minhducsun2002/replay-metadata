@@ -1,0 +1,12 @@
+[package]
+name = "replay-metadata"
+version = "0.1.0"
+authors = ["minhducsun2002 <32769878+minhducsun2002@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+osu-db = "0.2.0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
